@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+  scroll-padding-top: 4.5rem;
+}
+body{
+    margin: 0;
+    padding: 0;
+    /*background-color: #000000!important;*/
+   
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("images/background/background-1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+    opacity: 0.9;
+    
+}
+
+
+a.btn, input.btn, button.btn, .btn, button
+{
+  box-shadow: none;
+  outline: none !important;
+}
+
+a.btn:focus, input.btn:focus, button.btn:focus, .btn:focus, button, input, textarea, select
+{
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+input, input:focus, textarea, textarea:focus
+{
+  outline: none;
+  box-shadow: none !important;
+}
+a.btn, input.btn, button.btn, .btn, button
+{
+  box-shadow: none;
+  outline: none !important;
+}
+
+a.btn:focus, input.btn:focus, button.btn:focus, .btn:focus, button, input, textarea, select
+{
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+input, input:focus, textarea, textarea:focus
+{
+  outline: none;
+  box-shadow: none !important;
+}
+#header {
+  position:fixed;
+  width: 100%;
+  height: auto;
+  z-index: 99999;
+  transition: all 0.5s;
+  background:rgba(0, 0, 0, 0.7);
+  border:none;
+  border-radius: 0;
+}
+#header.fixed-top
+{
+  position: fixed;
+  background:rgba(0, 0, 0, 0.7);
+}
+.navbar{
+  z-index: 2;
+}
+.navbar-brand{
+    font-size: 29px!important;
+    font-family: 'Heebo', sans-serif;
+    padding-top: 0px;
+}    
+.navbar-brand span{
+    
+  font-family: 'Heebo', sans-serif;
+    padding-top: 10px;
+}
+
+.nav-link{
+  font-family: 'Heebo', sans-serif;
+    font-size:18px!important;
+}
+.carousel-item{
+    width:100%;
+    height:100%;
+  }
+  .carousel-item img{
+    height: 100%;
+  }  
+.pratik-logo{
+    padding-top:0px ;
+    max-width: 265px;
+    max-height: 160px;
+    margin-bottom: 10px;
+  }  
+.leftbox { 
+    float:left; 
+     
+     
+    width:40%; 
+    height:400px; 
+  } 
+.rightbox{ 
+    float:left;  
+    
+    width:60%; 
+    height:400px; 
+  } 
+.food-img{
+    margin-top: 50px;
+    z-index:2;
+  }
+.food-name{
+    padding-top:140px;
+    padding-left: 60px;
+    z-index:2;
+    font-size: 50px;
+    font-family: 'Kaushan Script', cursive;
+    text-shadow: 2px 2px 5px black;
+  } 
+.food-des{
+  color: white;
+  font-weight: lighter!important;
+  
+  font-size: 30px;
+  padding-left: 65px;
+  margin-left:0px;
+  
+} 
+.food-tag{
+  color: #fff;
+  font-family: 'Yesteryear', cursive;
+  font-size: 65px;
+  padding-left: 65px;
+  transform: rotate(-40deg);
+  
+}
+
+.about-us{
+ 
+  padding-top: 80px;
+  background-color: #fff;
+  margin-right: 0px!important;
+  padding-bottom: 140px;
+  
+
+}
+.about-p{
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.about-h{
+  font-family: 'Heebo', sans-serif;
+  margin-left: 10px;
+  margin-top: 30px;
+  font-size: 60px;
+  color: black;
+  font-family: 'Kaushan Script', cursive;
+}
+.title{
+  font-family: 'Lobster', cursive;
+  font-family: 'Redressed', cursive;
+  text-align:center;
+  margin-bottom:60px;
+}
+.title h4{
+  text-transform:capitalize;
+  font-size:36px;
+  position:relative;
+  display:inline-block;
+  padding-bottom:10px;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+}
+.title h4 span{
+  display:block;
+  font-size:18px;
+  font-style:italic;
+  margin-bottom:10px;
+  
+}
+.title h4:before{
+  position:absolute;
+  content:"";
+  width:100px;
+  height:2px;
+  bottom:0;
+  left:50%;
+  transform:translateX(-50%);
+}
+.equal-btn{
+    font-size:14px !important;
+  width: 236px;
+}
+.single-menu{
+  flex-basis:580px;
+  margin-bottom:40px;
+  padding-bottom:40px;
+  margin-left: 10px;
+  margin-right: 20px;
+  
+}
+.single-menu:nth-child(5), .single-menu:nth-child(6){
+  border-bottom:0; 
+}
+.single-menu{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+}
+
+.single-menu img{
+  width:120px;
+  height: 120px;
+  z-index: 2;
+  border: 5px solid white;
+  transition: 0.3s;
+}
+.single-menu .img-center{
+  position: relative;
+  padding: 5px 5px 5px 5px;
+
+}
+.single-menu img:hover{
+  border: 0;
+ 
+}
+.mobile_app_banner{
+  width: auto;
+  max-height: 600px;
+}
+
+.single-menu .img-center::after{
+  position: absolute;
+  display: block;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border:5px solid white;
+  transform: rotate(10deg);
+  z-index: -1;
+  transition: 0.3s;
+}
+.single-menu .img-center:hover::after{
+  transform: rotate(0deg);
+  padding: 0;
+  
+}
+.single-menu h4{
+  text-transform:capitalize;
+  font-size:22px;
+  border-bottom:1px dashed white;
+  margin-bottom:5px;
+  margin-left: 5px;
+  padding-bottom:5px;
+  font-family: 'Kaushan Script', cursive;
+}
+.single-menu h4 span{
+  float:right;
+  color:white;
+  font-style:italic;
+  
+}
+.single-menu p{
+  margin-left: 5px;
+}
+.contact{
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+
+.app-title{
+  font-family: 'Caveat', cursive;
+ 
+}
+.app-info{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.touch{
+  font-family: 'Yesteryear', cursive;
+  
+}
+.play{
+  margin-left: 20px;
+}
+.address{
+  font-size: 24px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.title h4 span{
+  font-family: 'Heebo', sans-serif;
+}
+.title h4{
+  font-family: 'Yesteryear', cursive;
+  font-size: 60px;
+
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url("images/app/app-bg.jpg");
+  height: 90%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  margin-top: 100px;
+  margin-bottom: 0px;
+}
+.app-des{
+  text-align: right;
+}
+.carousel-item{
+  height: 100vh;
+}
+.copy-right{
+  font-size: 16px;
+}
+.navbar-dark .navbar-toggler {
+  /* color: rgba(255,255,255,.55); */
+   border:none;
+}
+
+
+
+@media (max-width: 600px){
+    
+    .pratik-logo {
+      width: 190px;
+      margin-bottom: 0px;
+  }
+  .contact{
+      margin-top: 20px;
+  margin-bottom: 20px;
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+    object-position: center;
+  }
+  .hero-image{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+  }
+  .title h4 span {
+    font-size: 16px;
+  }
+  .title h4 {
+    font-size: 40px;
+  }
+  .hero-img{
+      margin-bottom:0px;
+  }
+  
+  .header{
+    padding: 0;
+    height: auto;
+  }
+  #header.fixed-top
+{
+  position: fixed;
+  background:none;
+}
+    .navbar-brand{
+        font-size: 23px!important;
+    }
+    .navbar{
+      
+      
+      padding-top: -0.5rem;
+    }
+    .food-name{
+        padding: 0;
+        margin-top: 0;
+        text-align: center;
+        padding-left: 0;
+        font-size: 35px;
+        margin-top: 20px;
+      }
+      
+      .mobile-bar{
+        background:rgba(0, 0, 0, 0.7);
+      }
+      .leftbox{
+        
+        
+        float: right;
+        float: none;
+        width: 100%;
+        height: 140px;
+        
+        
+      }
+      .nav-link{
+        font-size: 16px!important;
+        padding-top: 20px!important;
+        padding-left: 5px!important;
+      }
+      .equal-btn{
+          font-size:12px;
+      }
+      .single-menu{
+        padding-bottom: 0;
+      }
+      .single-menu h4{
+        padding-top: 10px;
+        text-align: center;
+      }
+      .title{
+        margin-bottom: 0px;
+        padding-top: 20px;
+      }
+      
+      .img-center{
+        text-align: center;
+      }
+      .single-menu{
+        display: block;
+      }
+      .address{
+        font-size: 14px;
+      }
+      .rightbox{
+        float: right;
+        float: none!important;
+        width: 100%;
+        height: 295px;
+        margin-top: 0;
+      }
+      .food-img{
+        margin-top: 40px;
+      }
+      .app-image{
+        height: 300px;
+        width: 300px;
+      }
+      .food-des{
+        text-align: center;
+        padding-left: 0;
+        font-size: 26px;
+      }
+      .food-tag{
+        text-align: center;
+        padding-left: 0;
+        font-size: 36px;
+      }
+      .about-us {
+       
+        padding-top: 0px;
+        padding-bottom: 50px;
+      }
+      .copy-right{
+        font-size: 10px;
+      }
+      .about-p{
+          font-size:14px;
+      }
+      .about-h{
+        margin-top: 5px;
+        font-size: 40px;
+      }
+      p{
+          font-size:14px;
+      }
+      .equal-btn{
+          font-size:14px !important;
+          
+      }
+      .btn-mob{
+        padding-left: 27px;
+        padding-right: 27px;
+      }
+      #btn-mob{
+          
+        margin-top: 15px;
+        padding-left: 27px;
+        padding-right: 27px;
+      }
+      .social-icon{
+        margin-top: 10px;
+      }
+      .app-info{
+        padding-top:0px;
+        padding-bottom: 20px;
+      
+      }
+      .mobile_app_banner{
+        width: 100%;
+        max-height: 600px;
+      }
+      
+.img-center{
+  width: 130px;
+  height: 126px;
+  margin-left: 25%;
+}
+      .block {
+    display: grid;
+    
+  }
+  
+  .block div:nth-of-type(1) {
+    order: 2;
+  }
+  
+  .block div:nth-of-type(2) {
+    order: 1;
+  }
+  
+  
+  
+} 
+@media screen and (max-width: 870px){
+  .mobile_app_banner{
+    width: 100%;
+  }
+  .mobile-bar{
+    background:rgba(0, 0, 0, 0.7);
+  }
+  #header.fixed-top
+  {
+    position: fixed;
+    background:none;
+  }
+}
